@@ -1,0 +1,82 @@
+.navbar {
+  width: 100%;
+  background: #fff;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  border-bottom: 1.5px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.7rem 2.2rem 0.7rem 1.5rem;
+  box-sizing: border-box;
+  min-height: 56px;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navbar-logo {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: #7c3aed;
+  letter-spacing: 0.3px;
+  margin-right: 0.7rem;
+  text-decoration: none;
+}
+
+.navbar-link {
+  font-size: 1.08rem;
+  color: #222;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navbar-search {
+  color: #7c3aed;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 0.7rem;
+}
+
+.navbar-profile {
+  background: #ede9fe;
+  color: #222;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.navbar-profile:hover {
+  background: #7c3aed;
+  color: #fff;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0.5rem 0.7rem;
+    min-height: 44px;
+  }
+  .navbar-logo {
+    font-size: 1.05rem;
+  }
+  .navbar-profile {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.95rem;
+  }
+} 
