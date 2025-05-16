@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# CS1300 Capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My capstone project extended the iterative design project, where I designed the interface for a medical blog website for a medical marketplace startup, Sesame. I chose this project because I learned a great deal about working with stakeholders and enjoyed having a real-world impact through my work. In the capstone, I refined our final design based on feedback from the founders and developed it into a fully functional website, with features that balance usability and conversion-focused interactions.
+The website consists of four parts: the home page, blog page, and provider dashboard. 
 
-## Available Scripts
+### Homepage
+Users can easily search for symptoms or care-related questions and browse content by featured articles, recent posts, or topic categories. I improved the previous design by creating a dedicated search results page and adding functionality to sort results by relevance, popularity, or publication date. 
 
-In the project directory, you can run:
+### Blog page
+When users click on any blog, they are taken to the blog page, which has a clean, intuitive content hierarchy, from the title to the provider video and then to the key insights. The video features the provider speaking and the key insights section uses registered users’ information to AI-generate personalized takeaways. This layout caters to both visual and text-based learners, while increasing trust and engagement.  The right-hand sidebar features two call-to-action buttons, allowing users to book an appointment or consult the provider directly while reading the blog. Clicking “Book an Appointment” opens a floating window to streamline the booking process, while clicking “Ask Doctor” opens a chat box. The blog content itself includes highlighted quotes to improve readability and call-to-action prompts to encourage subscriptions. 
 
-### `npm start`
+### Provider Dashboard
+When users click on “My Profile” in the top-right navigation bar, they are directed to the provider dashboard page. There, providers access a centralized hub where they can track blog performance through analytics, view a leaderboard to gamify participation, and draft new content using a built-in AI assistant, “Drafty AI.” These tools were intentionally designed to incentivize content creation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
