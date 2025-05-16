@@ -56,7 +56,7 @@ const BlogSubPage = () => {
               <button onClick={() => setModalOpen(true)}>Book Appointment</button>
             </div>
             <h3>Available treatment options</h3>
-            <p>Available treatment options can differ based on the type of arthritis, its severity and a person's overall health and lifestyle. Several treatment options can provide <a href="#">arthritis pain relief</a> and help manage your symptoms.</p>
+            <p>Available treatment options can differ based on the type of arthritis, its severity and a person's overall health and lifestyle. Several treatment options can provide <a >arthritis pain relief</a> and help manage your symptoms.</p>
             <ul>
               <li>Use of over-the-counter (OTC) non-steroidal anti-inflammatory drugs (NSAIDs), like ibuprofen, can help with short-term pain and inflammation relief.</li>
               <li>In severe or advanced cases, joint replacement surgery can be an option.</li>
@@ -78,10 +78,10 @@ const BlogSubPage = () => {
             <div className="sub-explore">
               <h4>Explore More</h4>
               <ul>
-                <li><a href="#">7 People With Rheumatoid Arthritis Explain How They're Thriving</a></li>
-                <li><a href="#">5 Common Arthritis Myths, Debunked by Science</a></li>
-                <li><a href="#">Manage Osteoarthritis With These 8 Self-Care Strategies</a></li>
-                <li><a href="#">The Good Knee Guide: Protect Your Joints</a></li>
+                <li><a>7 People With Rheumatoid Arthritis Explain How They're Thriving</a></li>
+                <li><a>5 Common Arthritis Myths, Debunked by Science</a></li>
+                <li><a>Manage Osteoarthritis With These 8 Self-Care Strategies</a></li>
+                <li><a>The Good Knee Guide: Protect Your Joints</a></li>
               </ul>
             </div>
           </article>
